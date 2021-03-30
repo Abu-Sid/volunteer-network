@@ -12,7 +12,7 @@ const AddEvents = () => {
       name: data.name,
       imageURL: imageURL
     };
-    const url = `http://localhost:5000/addEvent`;
+    const url = `https://warm-everglades-71907.herokuapp.com/addEvent`;
     console.log(eventData);
     fetch(url, {
       method: 'POST', 
